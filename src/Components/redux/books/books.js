@@ -8,12 +8,12 @@ const initialState = {
 // Actions creators
 export const addBook = (newBook) => ({
   type: types.ADDED_BOOK,
-  newBook
+  newBook,
 });
 
 export const removeBook = (id) => ({
   type: types.REMOVE_BOOK,
-  id
+  id,
 });
 
 // Reducer Creator
@@ -31,7 +31,7 @@ const booksReducer = (state = initialState, action) => {
       };
     default:
       return state;
-  };
+  }
 };
 
 export default booksReducer;

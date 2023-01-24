@@ -1,4 +1,4 @@
-import types from '../types/types'
+import types from '../types/types';
 
 // initial state
 const initialState = {
@@ -12,7 +12,7 @@ export const checkStatus = () => ({
 
 // Reducer Creator
 const categoriesReducer = (state = initialState, action) => {
-  switch (action.type){
+  switch (action.type) {
     case types.BOOK_STATUS_CHECK:
       return {
         ...state,
@@ -20,7 +20,7 @@ const categoriesReducer = (state = initialState, action) => {
       };
     default:
       return state;
-  };
+  }
 };
 
 export default categoriesReducer;
