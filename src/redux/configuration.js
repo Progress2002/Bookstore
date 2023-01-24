@@ -5,7 +5,7 @@ import categoriesReducer from './categories/categories';
 // combine all reducers together
 
 const reducer = combineReducers({
-  book: booksReducer,
+  books: booksReducer,
   categories: categoriesReducer,
 });
 
