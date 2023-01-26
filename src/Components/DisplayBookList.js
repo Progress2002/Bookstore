@@ -1,23 +1,20 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 
 const DisplayBookList = () => {
-  const books = [
-    {
-      Id: 101,
-      Title: 'The Lord of the Rings',
-      Author: 'J. R. R. Tolkien',
-    },
-  ];
+  const books = useSelector((state) => state.books.books);
+
   return (
     <>
       <div className="book_container">
         <ul>
           {books.map((book) => (
             <Book
-              Title={book.Title}
-              Author={book.Author}
-              key={book.Id}
+              Title={book.title}
+              Author={book.author}
+              key={book.id}
+              id={book.id}
             />
           ))}
         </ul>
