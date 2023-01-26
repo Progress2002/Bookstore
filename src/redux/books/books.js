@@ -29,7 +29,7 @@ const booksReducer = (state = initialState, action) => {
       return {
         ...state,
         booksCounter: state.booksCounter + 1,
-        books: [...state, action.addedBook],
+        books: [...state.books, action.addedBook],
       };
     case types.REMOVE_BOOK:
       return {
