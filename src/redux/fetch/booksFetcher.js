@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const base = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 const url = `${base}/apps/7DODvx5AcKK3GILYFT27/books`;
-// const url = `${base}/apps/9cmRMcVZ8DnPUoFM6AOr/books`;
 const initialState = {
   books: [],
   loading: false,

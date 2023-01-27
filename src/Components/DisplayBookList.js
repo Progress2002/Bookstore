@@ -4,8 +4,6 @@ import Book from './Book';
 import { gettingBooks } from '../redux/fetch/booksFetcher';
 
 const DisplayBookList = () => {
-  // const books = useSelector((state) => state.books.books);
-
   const dispatch = useDispatch();
 
   const { books } = useSelector((state) => state.books);
