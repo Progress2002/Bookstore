@@ -55,8 +55,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-
-- [Live Demo Link]()
+- Under construction...
+<!-- - [Live Demo Link]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,8 +137,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add a book
-- [ ] Add an author
+- [ ] **Add a book and Author**
+- [ ] **Remove book and author**
+- [ ] **Post to API**
+- [ ] **Display Book at API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
