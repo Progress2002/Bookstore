@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
@@ -14,7 +15,7 @@ const Header = () => (
         </li>
       </ul>
       <button type="button" className="icon-button">
-        <span className="primary-color">person</span>
+        <FaUser className="primary-color" />
       </button>
     </nav>
   </header>
