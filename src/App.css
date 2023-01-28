@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto+Slab:wght@300;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -62,6 +62,7 @@ a {
   background-color: #f9f6f6;
 }
 
+/* Book section */
 .books {
   display: flex;
   flex-direction: column;
@@ -101,7 +102,8 @@ a {
   opacity: 0.5;
 }
 
-.book-author, .book-title {
+.book-author,
+.book-title {
   font-family: "Roboto Slab", serif;
 }
 
@@ -141,7 +143,7 @@ a {
   width: 0.125rem;
   height: 1.5rem;
   background-color: rgb(232, 232, 232);
-  margin: 0px 1rem;
+  margin: 0 1rem;
 }
 
 .progress-container {
@@ -169,7 +171,8 @@ a {
   border-image: initial;
 }
 
-.completed, .percent-complete {
+.completed,
+.percent-complete {
   font-family: 'Montserrat', sans-serif;
   color: rgb(18, 18, 18);
 }
@@ -187,7 +190,7 @@ a {
   width: 0.125rem;
   height: 4.375rem;
   background-color: rgb(232, 232, 232);
-  margin: 0px 3.688rem 0px 4.938rem;
+  margin: 0 3.688rem 0 4.938rem;
 }
 
 .current-chapter-container {
@@ -197,7 +200,8 @@ a {
   gap: 20px;
 }
 
-.current-chapter, .current-chapter-label {
+.current-chapter,
+.current-chapter-label {
   font-family: "Roboto Slab", serif;
   font-weight: 300;
   color: rgb(18, 18, 18);
@@ -233,11 +237,12 @@ a {
   height: 0.175rem;
   background-color: rgb(222, 220, 220);
   width: 100%;
-  margin: 2.5rem 0px 1.813rem;
+  margin: 2.5rem 0 1.813rem;
 }
 
 /* form section */
-.form-title, .input {
+.form-title,
+.input {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -266,6 +271,8 @@ a {
   border-color: rgb(232, 232, 232);
   border-image: initial;
   width: 50%;
+  font-weight: 700;
+  outline: none;
 }
 
 .input:nth-child(2) {
