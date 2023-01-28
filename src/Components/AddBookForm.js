@@ -34,30 +34,30 @@ const AddBookForm = () => {
   };
 
   return (
-    <div className="add_book">
-      <h2>ADD NEW BOOK</h2>
-      <div>
-        <form onSubmit={onSubmitHandler}>
-          <input
-            type="text"
-            name="title"
-            placeholder="Add Title"
-            value={formData.title}
-            onChange={dataChangeHandler}
-            required
-          />
-          <input
-            type="text"
-            name="author"
-            placeholder="Add Author"
-            value={formData.author}
-            onChange={dataChangeHandler}
-            required
-          />
-          <button type="submit">ADD BOOK </button>
-        </form>
-      </div>
-    </div>
+    <section className="add_book">
+      <h2 className="form-title">ADD NEW BOOK</h2>
+      <form onSubmit={onSubmitHandler} className="add-form">
+        <input
+          className="input"
+          type="text"
+          name="title"
+          placeholder="Add Title"
+          value={formData.title}
+          onChange={dataChangeHandler}
+          required
+        />
+        <input
+          className="input"
+          type="text"
+          name="author"
+          placeholder="Add Author"
+          value={formData.author}
+          onChange={dataChangeHandler}
+          required
+        />
+        <button type="submit" className="primary-button-big">ADD BOOK </button>
+      </form>
+    </section>
   );
 };
 
