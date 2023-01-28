@@ -1,3 +1,228 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  padding: 4%;
+  background-color: #f5f6fa;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* header-section----- */
+.nav-bar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 24px 4%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  gap: 40px;
+}
+
+.nav-brand {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: rgb(2, 144, 255);
+}
+
+.nav-links {
+  display: flex;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.icon-button {
+  cursor: pointer;
+  width: 2.813rem;
+  height: 2.813rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-image: initial;
+}
+
+/* This is the style for the person icon */
+.primary-color {
+  color: rgb(2, 144, 255);
+}
+
+.container {
+  padding: 4%;
+  background-color: #f1f1f1;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  gap: 0.938rem;
+}
+
+.book {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  border-image: initial;
+  padding: 2rem;
+}
+
+.book-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.book-category,
+.book-title {
+  font-weight: 700;
+  color: rgb(18, 18, 18);
+}
+
+.book-category {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+
+.book-author, .book-title {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.book-title {
+  margin-top: 0.188rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+}
+
+.book-author {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgb(67, 134, 191);
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 1.313rem;
+}
+
+.button-outline {
+  font-family: "Roboto Slab", serif;
+  background-color: transparent;
+  color: rgb(67, 134, 191);
+  font-size: 0.875rem;
+  font-weight: 300;
+  align-items: center;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.vertical-divider {
+  width: 0.125rem;
+  height: 1.5rem;
+  background-color: rgb(232, 232, 232);
+  margin: 0px 1rem;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.circular-progress-container {
+  width: 5.625rem;
+  height: 5.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.63rem 2.925rem 0.75rem 2.925rem;
+}
+
+.circular-progress {
+  position: absolute;
+  width: 4.25rem;
+  height: 4.25rem;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: rgb(48, 123, 190) rgb(48, 123, 190) rgb(48, 123, 190) rgb(232, 232, 232);
+  border-image: initial;
+}
+
+.completed, .percent-complete {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(18, 18, 18);
+}
+
+.percent-complete {
+  font-size: 2rem;
+}
+
+.completed {
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+
+.progress-divider {
+  width: 0.125rem;
+  height: 4.375rem;
+  background-color: rgb(232, 232, 232);
+  margin: 0px 3.688rem 0px 4.938rem;
+}
+
+.current-chapter-container {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  gap: 20px;
+}
+
+.current-chapter, .current-chapter-label {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: rgb(18, 18, 18);
+}
+
+.current-chapter-label {
+  font-size: 0.813rem;
+  opacity: 0.5;
+}
+
+.current-chapter {
+  margin-top: 0.438rem;
+  font-size: 1rem;
+  letter-spacing: -0.4px;
+}
+
+.primary-button {
+  cursor: pointer;
+  background-color: rgb(2, 144, 255);
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 3px;
+  padding: 8px 24px;
 }
