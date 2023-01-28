@@ -27,7 +27,7 @@ const Book = (props) => {
               <div className="vertical-divider" />
               <button type="button" className="button-outline" onClick={removeBookHandler}>Remove</button>
               <div className="vertical-divider" />
-              <button type="button" className="button-outline">Edith</button>
+              <button type="button" className="button-outline">Edit</button>
             </div>
           </div>
           <div className="progress-container">
