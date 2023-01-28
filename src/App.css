@@ -137,6 +137,7 @@ a {
   border-style: none;
   border-color: initial;
   border-image: initial;
+  outline: none;
 }
 
 .vertical-divider {
