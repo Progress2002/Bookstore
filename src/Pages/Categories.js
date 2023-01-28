@@ -11,7 +11,7 @@ const Categories = () => {
   };
 
   return (
-    <div className="categories">
+    <div className="categories container">
       <div className="categ_text">
         <h2>{selectedCategories}</h2>
         <button type="button" onClick={handleClick}>
