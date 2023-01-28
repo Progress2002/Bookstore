@@ -3,22 +3,20 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <div>
-      <div className="logo">
-        <h1>Bookstore CMS</h1>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">BOOKS</Link>
-          </li>
-          <li>
-            <Link to="/categories">CATEGORIES</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div />
+    <nav className="nav-bar">
+      <Link to="/" className="nav-brand">Bookstore CMS</Link>
+      <ul className="nav-links">
+        <li>
+          <Link to="/">BOOKS</Link>
+        </li>
+        <li>
+          <Link to="/categories">CATEGORIES</Link>
+        </li>
+      </ul>
+      <button type="button" className="icon-button">
+        <span className="primary-color">person</span>
+      </button>
+    </nav>
   </header>
 );
 
