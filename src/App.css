@@ -133,10 +133,7 @@ a {
   font-weight: 300;
   align-items: center;
   cursor: pointer;
-  border-width: initial;
-  border-style: none;
-  border-color: initial;
-  border-image: initial;
+  border: none;
   outline: none;
 }
 
